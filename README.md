@@ -1,3 +1,3 @@
-# YAKI.github.io
+# HUYAKI.github.io
 This is yaki's repository
 HELLO
