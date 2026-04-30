@@ -5,6 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>개발자 포트폴리오</title>
     <style>
+    /* 깃허브로 이동하는 버튼 */
+    .github-btn {
+            display: inline-block;
+            background-color: #24292e; /* 깃허브 특유의 어두운 색 */
+            color: white;
+            padding: 12px 24px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .github-btn:hover {
+            background-color: #555; /* 마우스 올렸을 때 색 변화 */
+        }
+
+        /* [스타일] 프로젝트 이미지/GIF 스타일 */
+        .project-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* [스타일] 리스트 태그(ul, li) 간격 조정 */
+        #projects ul {
+            text-align: left; /* 설명글 왼쪽 정렬 */
+            max-width: 600px;
+            margin: 10px auto;
+        }
+        #projects li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+
+        
         /* 기본 스타일 설정 */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
