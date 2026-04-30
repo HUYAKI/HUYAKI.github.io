@@ -1,3 +1,3 @@
 # HUYAKI.github.io
 This is yaki's repository
-HELLO
+Hello! My name is Baek Sangyeol. I'm studying computer engineering at Hankuk University of Foreign studies.
